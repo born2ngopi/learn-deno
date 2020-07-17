@@ -1,5 +1,5 @@
 import { ServerRequest } from 'https://deno.land/std/http/server.ts';
-import {User} from '../model/user-model.ts';
+// import {User} from '../model/user-model.ts';
 // import * as bcrypt from "https://deno.land/x/bcrypt/mod.ts";
 
 export class UserController {
