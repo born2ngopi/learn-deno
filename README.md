@@ -1,1 +1,1 @@
-# deno run cmd/main.ts
+# deno run --allow-net cmd/main.ts
