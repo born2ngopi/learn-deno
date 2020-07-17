@@ -1,6 +1,6 @@
 import * as bcrypt from "https://deno.land/x/bcrypt/mod.ts";
 
-class UserServece {
+class UserService {
 
   static async hashPassword(password: string){
     const salt = await bcrypt.genSalt(8);
